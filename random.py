@@ -15,7 +15,7 @@ for i in range(50):
     phon = random.randint(100000,999999)
     phone = '{}-{} '.format(fseries,phon)
     Email = '{}@gmail.com'.format(fname)
-    print(f'{fname} \n{phone} \n{Email}')
+    print('{} \n{} \n{}'.format(fname,phone,Email))
 
 
 
